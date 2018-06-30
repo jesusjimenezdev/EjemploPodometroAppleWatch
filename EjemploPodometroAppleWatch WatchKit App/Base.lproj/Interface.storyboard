@@ -1,14 +1,51 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14113" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch42" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11055"/>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14033"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="EjemploPodometroAppleWatch_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" verticalAlignment="bottom" id="ORs-SP-oJ9">
+                            <items>
+                                <label alignment="left" text="Pasos:" id="bkc-5f-536"/>
+                                <label alignment="right" text="0" id="2YG-5B-dbL"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" verticalAlignment="bottom" id="GoZ-LA-FhC">
+                            <items>
+                                <label alignment="left" text="Distancia:" id="tA2-VB-1Ti"/>
+                                <label alignment="right" text="0" id="BLQ-bu-mOM"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" verticalAlignment="bottom" id="Nl1-NU-e9v">
+                            <items>
+                                <label alignment="left" text="Ascender:" id="YYp-ka-rof"/>
+                                <label alignment="right" text="0" id="7Jw-R2-rIf"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" verticalAlignment="bottom" id="RAu-xI-LNF">
+                            <items>
+                                <label alignment="left" text="Descender:" id="2ic-Of-ELj"/>
+                                <label alignment="right" text="0" id="uRp-cm-JGY"/>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="labelAscender" destination="7Jw-R2-rIf" id="bpX-9a-osz"/>
+                        <outlet property="labelDescender" destination="uRp-cm-JGY" id="wNF-5M-fzn"/>
+                        <outlet property="labelDistancia" destination="BLQ-bu-mOM" id="S5q-6c-xm1"/>
+                        <outlet property="labelPasos" destination="2YG-5B-dbL" id="UJ1-Rb-0UP"/>
+                    </connections>
+                </controller>
             </objects>
         </scene>
     </scenes>
