@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA285C0C20E7705F00C8B1EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA285C0B20E7705F00C8B1EB /* AppDelegate.swift */; };
+		EA285C0E20E7705F00C8B1EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA285C0D20E7705F00C8B1EB /* ViewController.swift */; };
+		EA285C1120E7705F00C8B1EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA285C0F20E7705F00C8B1EB /* Main.storyboard */; };
+		EA285C1320E7706000C8B1EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA285C1220E7706000C8B1EB /* Assets.xcassets */; };
+		EA285C1620E7706000C8B1EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA285C1420E7706000C8B1EB /* LaunchScreen.storyboard */; };
+		EA285C1B20E7706000C8B1EB /* EjemploPodometroAppleWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EA285C1A20E7706000C8B1EB /* EjemploPodometroAppleWatch WatchKit App.app */; };
+		EA285C2120E7706000C8B1EB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA285C1F20E7706000C8B1EB /* Interface.storyboard */; };
+		EA285C2320E7706000C8B1EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA285C2220E7706000C8B1EB /* Assets.xcassets */; };
+		EA285C2A20E7706100C8B1EB /* EjemploPodometroAppleWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EA285C2920E7706100C8B1EB /* EjemploPodometroAppleWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EA285C2F20E7706100C8B1EB /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA285C2E20E7706100C8B1EB /* InterfaceController.swift */; };
+		EA285C3120E7706100C8B1EB /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA285C3020E7706100C8B1EB /* ExtensionDelegate.swift */; };
+		EA285C3320E7706100C8B1EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA285C3220E7706100C8B1EB /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA285C1C20E7706000C8B1EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA285C0020E7705F00C8B1EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA285C1920E7706000C8B1EB;
+			remoteInfo = "EjemploPodometroAppleWatch WatchKit App";
+		};
+		EA285C2B20E7706100C8B1EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA285C0020E7705F00C8B1EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA285C2820E7706100C8B1EB;
+			remoteInfo = "EjemploPodometroAppleWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EA285C3A20E7706100C8B1EB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EA285C2A20E7706100C8B1EB /* EjemploPodometroAppleWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA285C3E20E7706100C8B1EB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				EA285C1B20E7706000C8B1EB /* EjemploPodometroAppleWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EA285C0820E7705F00C8B1EB /* EjemploPodometroAppleWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EjemploPodometroAppleWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA285C0B20E7705F00C8B1EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA285C0D20E7705F00C8B1EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA285C1020E7705F00C8B1EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA285C1220E7706000C8B1EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA285C1520E7706000C8B1EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA285C1720E7706000C8B1EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA285C1A20E7706000C8B1EB /* EjemploPodometroAppleWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EjemploPodometroAppleWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA285C2020E7706000C8B1EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		EA285C2220E7706000C8B1EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA285C2420E7706000C8B1EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA285C2920E7706100C8B1EB /* EjemploPodometroAppleWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "EjemploPodometroAppleWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA285C2E20E7706100C8B1EB /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		EA285C3020E7706100C8B1EB /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		EA285C3220E7706100C8B1EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA285C3420E7706100C8B1EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA285C0520E7705F00C8B1EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA285C2620E7706100C8B1EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA285BFF20E7705F00C8B1EB = {
+			isa = PBXGroup;
+			children = (
+				EA285C0A20E7705F00C8B1EB /* EjemploPodometroAppleWatch */,
+				EA285C1E20E7706000C8B1EB /* EjemploPodometroAppleWatch WatchKit App */,
+				EA285C2D20E7706100C8B1EB /* EjemploPodometroAppleWatch WatchKit Extension */,
+				EA285C0920E7705F00C8B1EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA285C0920E7705F00C8B1EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA285C0820E7705F00C8B1EB /* EjemploPodometroAppleWatch.app */,
+				EA285C1A20E7706000C8B1EB /* EjemploPodometroAppleWatch WatchKit App.app */,
+				EA285C2920E7706100C8B1EB /* EjemploPodometroAppleWatch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA285C0A20E7705F00C8B1EB /* EjemploPodometroAppleWatch */ = {
+			isa = PBXGroup;
+			children = (
+				EA285C0B20E7705F00C8B1EB /* AppDelegate.swift */,
+				EA285C0D20E7705F00C8B1EB /* ViewController.swift */,
+				EA285C0F20E7705F00C8B1EB /* Main.storyboard */,
+				EA285C1220E7706000C8B1EB /* Assets.xcassets */,
+				EA285C1420E7706000C8B1EB /* LaunchScreen.storyboard */,
+				EA285C1720E7706000C8B1EB /* Info.plist */,
+			);
+			path = EjemploPodometroAppleWatch;
+			sourceTree = "<group>";
+		};
+		EA285C1E20E7706000C8B1EB /* EjemploPodometroAppleWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				EA285C1F20E7706000C8B1EB /* Interface.storyboard */,
+				EA285C2220E7706000C8B1EB /* Assets.xcassets */,
+				EA285C2420E7706000C8B1EB /* Info.plist */,
+			);
+			path = "EjemploPodometroAppleWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		EA285C2D20E7706100C8B1EB /* EjemploPodometroAppleWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EA285C2E20E7706100C8B1EB /* InterfaceController.swift */,
+				EA285C3020E7706100C8B1EB /* ExtensionDelegate.swift */,
+				EA285C3220E7706100C8B1EB /* Assets.xcassets */,
+				EA285C3420E7706100C8B1EB /* Info.plist */,
+			);
+			path = "EjemploPodometroAppleWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA285C0720E7705F00C8B1EB /* EjemploPodometroAppleWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA285C3F20E7706100C8B1EB /* Build configuration list for PBXNativeTarget "EjemploPodometroAppleWatch" */;
+			buildPhases = (
+				EA285C0420E7705F00C8B1EB /* Sources */,
+				EA285C0520E7705F00C8B1EB /* Frameworks */,
+				EA285C0620E7705F00C8B1EB /* Resources */,
+				EA285C3E20E7706100C8B1EB /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA285C1D20E7706000C8B1EB /* PBXTargetDependency */,
+			);
+			name = EjemploPodometroAppleWatch;
+			productName = EjemploPodometroAppleWatch;
+			productReference = EA285C0820E7705F00C8B1EB /* EjemploPodometroAppleWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA285C1920E7706000C8B1EB /* EjemploPodometroAppleWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA285C3B20E7706100C8B1EB /* Build configuration list for PBXNativeTarget "EjemploPodometroAppleWatch WatchKit App" */;
+			buildPhases = (
+				EA285C1820E7706000C8B1EB /* Resources */,
+				EA285C3A20E7706100C8B1EB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA285C2C20E7706100C8B1EB /* PBXTargetDependency */,
+			);
+			name = "EjemploPodometroAppleWatch WatchKit App";
+			productName = "EjemploPodometroAppleWatch WatchKit App";
+			productReference = EA285C1A20E7706000C8B1EB /* EjemploPodometroAppleWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		EA285C2820E7706100C8B1EB /* EjemploPodometroAppleWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA285C3720E7706100C8B1EB /* Build configuration list for PBXNativeTarget "EjemploPodometroAppleWatch WatchKit Extension" */;
+			buildPhases = (
+				EA285C2520E7706100C8B1EB /* Sources */,
+				EA285C2620E7706100C8B1EB /* Frameworks */,
+				EA285C2720E7706100C8B1EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EjemploPodometroAppleWatch WatchKit Extension";
+			productName = "EjemploPodometroAppleWatch WatchKit Extension";
+			productReference = EA285C2920E7706100C8B1EB /* EjemploPodometroAppleWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA285C0020E7705F00C8B1EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = com.jesusjimenez;
+				TargetAttributes = {
+					EA285C0720E7705F00C8B1EB = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					EA285C1920E7706000C8B1EB = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					EA285C2820E7706100C8B1EB = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = EA285C0320E7705F00C8B1EB /* Build configuration list for PBXProject "EjemploPodometroAppleWatch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA285BFF20E7705F00C8B1EB;
+			productRefGroup = EA285C0920E7705F00C8B1EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA285C0720E7705F00C8B1EB /* EjemploPodometroAppleWatch */,
+				EA285C1920E7706000C8B1EB /* EjemploPodometroAppleWatch WatchKit App */,
+				EA285C2820E7706100C8B1EB /* EjemploPodometroAppleWatch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA285C0620E7705F00C8B1EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA285C1620E7706000C8B1EB /* LaunchScreen.storyboard in Resources */,
+				EA285C1320E7706000C8B1EB /* Assets.xcassets in Resources */,
+				EA285C1120E7705F00C8B1EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA285C1820E7706000C8B1EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA285C2320E7706000C8B1EB /* Assets.xcassets in Resources */,
+				EA285C2120E7706000C8B1EB /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA285C2720E7706100C8B1EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA285C3320E7706100C8B1EB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA285C0420E7705F00C8B1EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA285C0E20E7705F00C8B1EB /* ViewController.swift in Sources */,
+				EA285C0C20E7705F00C8B1EB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA285C2520E7706100C8B1EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA285C3120E7706100C8B1EB /* ExtensionDelegate.swift in Sources */,
+				EA285C2F20E7706100C8B1EB /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA285C1D20E7706000C8B1EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA285C1920E7706000C8B1EB /* EjemploPodometroAppleWatch WatchKit App */;
+			targetProxy = EA285C1C20E7706000C8B1EB /* PBXContainerItemProxy */;
+		};
+		EA285C2C20E7706100C8B1EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA285C2820E7706100C8B1EB /* EjemploPodometroAppleWatch WatchKit Extension */;
+			targetProxy = EA285C2B20E7706100C8B1EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA285C0F20E7705F00C8B1EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA285C1020E7705F00C8B1EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA285C1420E7706000C8B1EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA285C1520E7706000C8B1EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EA285C1F20E7706000C8B1EB /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA285C2020E7706000C8B1EB /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA285C3520E7706100C8B1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA285C3620E7706100C8B1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA285C3820E7706100C8B1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WQWRXX9PHB;
+				INFOPLIST_FILE = "EjemploPodometroAppleWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jesusjimenez.EjemploPodometroAppleWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		EA285C3920E7706100C8B1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WQWRXX9PHB;
+				INFOPLIST_FILE = "EjemploPodometroAppleWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jesusjimenez.EjemploPodometroAppleWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		EA285C3C20E7706100C8B1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WQWRXX9PHB;
+				IBSC_MODULE = EjemploPodometroAppleWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "EjemploPodometroAppleWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jesusjimenez.EjemploPodometroAppleWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		EA285C3D20E7706100C8B1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WQWRXX9PHB;
+				IBSC_MODULE = EjemploPodometroAppleWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "EjemploPodometroAppleWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jesusjimenez.EjemploPodometroAppleWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		EA285C4020E7706100C8B1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WQWRXX9PHB;
+				INFOPLIST_FILE = EjemploPodometroAppleWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jesusjimenez.EjemploPodometroAppleWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA285C4120E7706100C8B1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WQWRXX9PHB;
+				INFOPLIST_FILE = EjemploPodometroAppleWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jesusjimenez.EjemploPodometroAppleWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA285C0320E7705F00C8B1EB /* Build configuration list for PBXProject "EjemploPodometroAppleWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA285C3520E7706100C8B1EB /* Debug */,
+				EA285C3620E7706100C8B1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA285C3720E7706100C8B1EB /* Build configuration list for PBXNativeTarget "EjemploPodometroAppleWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA285C3820E7706100C8B1EB /* Debug */,
+				EA285C3920E7706100C8B1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA285C3B20E7706100C8B1EB /* Build configuration list for PBXNativeTarget "EjemploPodometroAppleWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA285C3C20E7706100C8B1EB /* Debug */,
+				EA285C3D20E7706100C8B1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA285C3F20E7706100C8B1EB /* Build configuration list for PBXNativeTarget "EjemploPodometroAppleWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA285C4020E7706100C8B1EB /* Debug */,
+				EA285C4120E7706100C8B1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA285C0020E7705F00C8B1EB /* Project object */;
+}
